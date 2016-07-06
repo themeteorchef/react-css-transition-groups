@@ -1,0 +1,23 @@
+.documents-list {
+  .documents-list-enter {
+    -webkit-animation-name: bounceIn;
+    -webkit-animation-duration: .8s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    animation-name: bounceIn;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  }
+
+  .documents-list-leave {
+    -webkit-animation-name: bounceOut;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    animation-name: bounceOut;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  }
+}
